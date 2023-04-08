@@ -7,8 +7,8 @@ from builtins import range
 
 
 import numpy as np
-from grid_world import standard_grid, negative_grid
-from iterative_policy_evaluation import print_values, print_policy
+from gridworld import standard_grid, negative_grid
+from iterative_policy_evaluation_probabilistic import print_values, print_policy
 
 GAMMA = 0.9
 
